@@ -1,5 +1,6 @@
 
 import java.util.Random;
+//finds the greatest number out of 3 integers.
 public class GreatestNumber{
     public static void main (String[] args){
         
