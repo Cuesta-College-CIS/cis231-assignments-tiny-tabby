@@ -7,6 +7,7 @@ public class AscendingOrder {
         int randomNum2 = rand.nextInt(101);
         int randomNum3 = rand.nextInt(101);
         System.out.println("The generated random order: " + randomNum + ", " + randomNum2 + ", " + randomNum3);
+        
         if(randomNum > randomNum2 && randomNum > randomNum3)
         {
             System.out.print("The sorted order: " + randomNum + ", ");
