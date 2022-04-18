@@ -1,9 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 public class Quiz22 {
-    
-
-
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
 		//final int row1 = 3; // will NOT use L. Just for the extendability.
