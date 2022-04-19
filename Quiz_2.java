@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 import java.util.Scanner;
 public class Quiz_2 {
     
@@ -41,12 +41,17 @@ public class Quiz_2 {
 public static int[] constructArray(Scanner scnr){
    
     int n = scnr.nextInt();
+    if( n <= 0){
+        System.out.println( "out of bounds");
+        
+    }
+    
 int [] res = new int[n]; //n is user input size of array 
     for( int i = 0; i < res.length; i++ ){
         res[i] = (int)( Math.random() * 100); //scale from 0 - 99
     }
     return res; //return array
-   
+
 
 }
 public static void printArray(int[] vals){
@@ -161,4 +166,39 @@ public static void main( String []args){
 scnr.close();
 
 }
+// test data
+/* 3 3
+ 5 48 62
+9 21 38
+Array 1 has more even numbers
+The array 1 has the greatest value 62
+
+10 5
+49 24 95 30 46 51 93 62 41 85 
+78 55 24 67 57
+Array 1 has more even numbers
+The array 1 has the greatest value 95
+
+4 8
+47 44 8 84
+66 92 60 3 71 81 65 3
+Array -1 has more even numbers
+The array 2 has the greatest value 92
+
+0 -1
+out of bounds
+out of bounds
+Exception in thread "main" java.lang.NegativeArraySizeException: -1
+        at Quiz_2.constructArray(Quiz_2.java:49)
+        at Quiz_2.main(Quiz_2.java:138)
+
+-5 -1
+out of bounds
+Exception in thread "main" java.lang.NegativeArraySizeException: -5
+        at Quiz_2.constructArray(Quiz_2.java:49)
+        at Quiz_2.main(Quiz_2.java:137)
+
+
+
+*/
 }
