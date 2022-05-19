@@ -67,5 +67,31 @@ public class Question3 {
         System.out.println(slist.get(2));
         slist.get(0).getCourseList().get(1).printCourseinfo();
 	}
+    //input: 3 1001 John 9 03/01/2002 3 CIS01 C++ 90 CIS02 Python 80 CIS231 Java 90 1002 Kurt 12 05/01/2002 4 CIS01 C++ 100 CIS02 Python 100 CIS232 Java2 90 CNT02 Cisco 80 1003 Kim 6 01/01/1990 2 CIS01 C++ 100 CIS232 Java2 80
+    /*output:
+Name:   John    DOB:    03/01/2002
+ID:     1001    Credits 9
+Course ID:      CIS01   Name: C++       Score: 90       Grade:  A
+Course ID:      CIS02   Name: Python    Score: 80       Grade:  B
+Course ID:      CIS231  Name: Java      Score: 90       Grade:  A
+Name:   Kurt    DOB:    05/01/2002
+ID:     1002    Credits 12
+Course ID:      CIS01   Name: C++       Score: 100      Grade:  A
+Course ID:      CIS02   Name: Python    Score: 100      Grade:  A
+Course ID:      CIS232  Name: Java2     Score: 90       Grade:  A
+Course ID:      CNT02   Name: Cisco     Score: 80       Grade:  B
+Name:   Kim     DOB:    01/01/1990
+ID:     1003    Credits 6
+Course ID:      CIS01   Name: C++       Score: 100      Grade:  A
+Course ID:      CIS232  Name: Java2     Score: 80       Grade:  B
+Testing other methods...
+Name:   John    DOB:    03/01/2002
+Name:   Kim     DOB:    01/01/1990
+ID:     1003    Credits 6
+Course ID:      CIS02   Name: Python    Score: 80       Grade:  B
+
+
+    */
+    
 
 }
