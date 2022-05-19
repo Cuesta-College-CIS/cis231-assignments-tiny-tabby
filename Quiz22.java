@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 import java.util.Scanner;
 public class Quiz22 {
 	public static void main(String[] args) {
